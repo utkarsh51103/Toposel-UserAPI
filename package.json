@@ -1,0 +1,32 @@
+{
+  "name": "toposel-userapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkarsh51103/Toposel-UserAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utkarsh51103/Toposel-UserAPI/issues"
+  },
+  "homepage": "https://github.com/utkarsh51103/Toposel-UserAPI#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cookieparser": "^0.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-token": "^1.0.9",
+    "mongoose": "^8.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
