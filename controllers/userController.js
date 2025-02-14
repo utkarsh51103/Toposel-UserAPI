@@ -23,7 +23,7 @@ const userRegister = async (req, res, next) => {
 
     if(verify){ return res.status(400).json({message: "User already exists"})}
 
-    const user = User.create({
+    const user = await User.create({
       userName,
       password,
       name,
